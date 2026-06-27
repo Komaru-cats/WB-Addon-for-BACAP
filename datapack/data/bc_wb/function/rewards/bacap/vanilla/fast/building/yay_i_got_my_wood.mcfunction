@@ -1,3 +1,0 @@
-worldborder add 5.0
-scoreboard players set blazeandcave:building/yay_i_got_my_wood wb 1
-tellraw @a {"text": " +2.5 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Yay! I got my wood!", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Collect every type of log and stem", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Building", "color": "gray", "italic": true}]}}

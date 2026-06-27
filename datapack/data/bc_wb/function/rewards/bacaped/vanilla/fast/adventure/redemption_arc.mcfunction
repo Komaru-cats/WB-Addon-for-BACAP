@@ -1,3 +1,0 @@
-worldborder add 3.0
-scoreboard players set blazeandcave:adventure/redemption_arc wb 1
-tellraw @a {"text": " +1.5 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Redemption Arc", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Befriend a Pillager that doesn’t have a crossbow", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Adventure", "color": "gray", "italic": true}]}}

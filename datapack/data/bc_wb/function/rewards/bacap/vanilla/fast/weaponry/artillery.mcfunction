@@ -1,3 +1,0 @@
-worldborder add 1.0
-scoreboard players set blazeandcave:weaponry/artillery wb 1
-tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Artillery", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Have nine loaded crossbows in your hotbar. All set!", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Weaponry", "color": "gray", "italic": true}]}}

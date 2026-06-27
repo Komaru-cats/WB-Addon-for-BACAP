@@ -1,3 +1,0 @@
-worldborder add 0.3
-scoreboard players set blazeandcave:enchanting/machine_bow wb 1
-tellraw @a {"text": " +0.15 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Machine Bow", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Fire a crossbow as rapidly as possible", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Enchanting", "color": "gray", "italic": true}]}}

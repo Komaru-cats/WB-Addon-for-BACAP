@@ -12,10 +12,8 @@ scoreboard players add first_time wb 0
 # If it matches 0, do install, that works only for the first time
 execute if score first_time wb matches 0 run schedule function bc_wb:install 8s
 
-# Detect if ED exists, or if the server is on Bukkit/spigot etc.
+# Detect if ED exists
 scoreboard objectives add wb_is_ed dummy
-scoreboard objectives add wb_is_bukkit dummy
-scoreboard objectives add wb_check_bukkit dummy
 
 # Detect
 schedule function bc_wb:detectors/detect_mode 5s

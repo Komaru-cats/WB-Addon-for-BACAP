@@ -1,3 +1,0 @@
-worldborder add 0.5
-scoreboard players set blazeandcave:biomes/powder_full wb 1
-tellraw @a {"text": " +0.25 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Powder-full", "color": "green"}, {"text": "\n"}, {"translate": "Pick up some Powder Snow in a Bucket", "color": "#49DB49"}, {"text": "\n\n"}, {"translate": "Biomes", "color": "gray", "italic": true}]}}

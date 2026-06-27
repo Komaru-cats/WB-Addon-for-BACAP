@@ -1,3 +1,0 @@
-worldborder add 5.0
-scoreboard players set blazeandcave:adventure/lilypad_hatter wb 1
-tellraw @a {"text": " +2.5 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Lilypad Hatter", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Breed and trade with a swamp villager", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Adventure", "color": "gray", "italic": true}]}}

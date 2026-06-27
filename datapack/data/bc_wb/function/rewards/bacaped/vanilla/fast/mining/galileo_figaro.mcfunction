@@ -1,3 +1,0 @@
-worldborder add 0.2
-scoreboard players set blazeandcave:mining/galileo_figaro wb 1
-tellraw @a {"text": " +0.1 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Galileo Figaro", "color": "green"}, {"text": "\n"}, {"translate": "Zoom in on something using a Spyglass", "color": "#49DB49"}, {"text": "\n\n"}, {"translate": "Mining", "color": "gray", "italic": true}]}}

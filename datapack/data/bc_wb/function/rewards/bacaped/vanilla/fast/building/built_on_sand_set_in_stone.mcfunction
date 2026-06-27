@@ -1,3 +1,0 @@
-worldborder add 2.0
-scoreboard players set blazeandcave:building/built_on_sand_set_in_stone wb 1
-tellraw @a {"text": " +1.0 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Built on Sand, Set in Stone", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Craft or collect a stack of all forms of Sandstone and Red Sandstone", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Building", "color": "gray", "italic": true}]}}

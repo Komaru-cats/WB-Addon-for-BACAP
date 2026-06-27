@@ -1,3 +1,0 @@
-worldborder add 1.0
-scoreboard players set blazeandcave:monsters/camouflage wb 1
-tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Camouflage", "color": "dark_purple"}, {"text": "\n"}, {"translate": "Kill a mob while wearing the same type of mob head", "color": "#C900C7"}, {"text": "\n\n"}, {"translate": "Monsters", "color": "gray", "italic": true}]}}

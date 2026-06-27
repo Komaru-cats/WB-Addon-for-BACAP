@@ -1,3 +1,0 @@
-worldborder add 1.0
-scoreboard players set minecraft:adventure/blowback wb 1
-tellraw @a {"text": " +0.5 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Blowback", "color": "dark_purple"}, {"text": "\n"}, {"translate": "Kill a Breeze with a deflected Wind Charge", "color": "#C900C7"}, {"text": "\n\n"}, {"translate": "Adventure", "color": "gray", "italic": true}]}}

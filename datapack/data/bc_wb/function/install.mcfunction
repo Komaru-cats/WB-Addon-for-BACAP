@@ -1,7 +1,7 @@
 # This scoreboard check locks the expansion process (creates pseudo-queue)
 scoreboard players set is_wb_run wb 1
 
-# We set worldborder in all dimensions to 1 block (for all dimensions because of bukkit/spigot...)
+# We set worldborder in all dimensions to 1 block
 execute in minecraft:overworld run worldborder center 0.5 0.5
 execute in minecraft:overworld run worldborder set 1
 execute in minecraft:overworld run worldborder damage buffer 1

@@ -1,3 +1,0 @@
-worldborder add 15.0
-scoreboard players set bacaped:nether/give_them_everything_they_want wb 1
-tellraw @a {"text": " +7.5 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Give Them Everything They Want", "color": "dark_purple"}, {"text": "\n"}, {"translate": "Give every possible item to Piglins", "color": "#C900C7"}, {"text": "\n\n"}, {"translate": "Nether", "color": "gray", "italic": true}]}}

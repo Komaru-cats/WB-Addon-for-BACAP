@@ -1,0 +1,5 @@
+execute in minecraft:overworld run worldborder add 7.0
+execute in minecraft:the_nether run worldborder add 7.0
+execute in minecraft:the_end run worldborder add 7.0
+scoreboard players set blazeandcave:end/taking_the_scenic_route wb 1
+tellraw @a {"text": " +3.5 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Taking the Scenic Route", "color": "dark_purple"}, {"text": "\n"}, {"translate": "Travel to the outer End islands using a bridge", "color": "#C900C7"}, {"text": "\n\n"}, {"translate": "The End", "color": "gray", "italic": true}]}}

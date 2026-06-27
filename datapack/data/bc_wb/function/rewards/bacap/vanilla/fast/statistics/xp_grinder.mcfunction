@@ -1,3 +1,0 @@
-worldborder add 40.0
-scoreboard players set blazeandcave:statistics/xp_grinder wb 1
-tellraw @a {"text": " +20.0 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "XP Grinder", "color": "dark_purple"}, {"text": "\n"}, {"translate": "Reach 300 experience levels", "color": "#C900C7"}, {"text": "\n\n"}, {"translate": "Statistics", "color": "gray", "italic": true}]}}

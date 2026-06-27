@@ -1,7 +1,0 @@
-execute in minecraft:overworld run worldborder add 125.0 13
-execute in minecraft:the_nether run worldborder add 125.0 13
-execute in minecraft:the_end run worldborder add 125.0 13
-scoreboard players set bacaped:challenges/riddle_me_that wb 1
-scoreboard players set is_wb_run wb 0
-schedule function bc_wb:untask 13s
-tellraw @a {"text": " +62.5 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Riddle Me That", "color": "#FF2A2A"}, {"text": "\n"}, {"translate": "The first is to use igloo technology to speed up curing\nThe second is to melt the frost with your own flame\nThe third is to seal the four elements within a pot\nThe fourth is to fill your inventory, yet keep it empty\nThe fifth is to go everywhere at once\nThe sixth is to collect all the references of the silent \"Shhh...\"\nThe seventh is to maintain the law: sharp below, soft above – a balance that cannot be overturned\nThe eighth is to end the duel of the frostbitten undead riders, on the grounds of differing legs\nThe ninth is to chase a Cat through its nine lives without losing track\nThe tenth is to make a deal with a clucking trader", "color": "#DC2727"}, {"text": "\n\n"}, {"translate": "Super Challenges", "color": "gray", "italic": true}]}}

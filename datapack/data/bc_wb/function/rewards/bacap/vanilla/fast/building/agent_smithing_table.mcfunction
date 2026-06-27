@@ -1,3 +1,0 @@
-worldborder add 0.2
-scoreboard players set blazeandcave:building/agent_smithing_table wb 1
-tellraw @a {"text": " +0.1 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Agent Smithing Table", "color": "green"}, {"text": "\n"}, {"translate": "Craft a smithing table", "color": "#49DB49"}, {"text": "\n\n"}, {"translate": "Building", "color": "gray", "italic": true}]}}

@@ -1,3 +1,0 @@
-worldborder add 0.5
-scoreboard players set blazeandcave:adventure/raiders_of_the_lost_trim wb 1
-tellraw @a {"text": " +0.25 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Raiders of the Lost Trim", "color": "#75E1FF"}, {"text": "\n"}, {"translate": "Carefully excavate a Smithing Template from the Trail Ruins", "color": "#63BDD7"}, {"text": "\n\n"}, {"translate": "Adventure", "color": "gray", "italic": true}]}}

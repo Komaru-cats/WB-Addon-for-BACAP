@@ -1,3 +1,0 @@
-worldborder add 0.3
-scoreboard players set blazeandcave:farming/mega_mushroom wb 1
-tellraw @a {"text": " +0.15 Blocks", "color": "#B2FFEE", "hover_event": {"action": "show_text", "value": [{"translate": "Mega Mushroom", "color": "green"}, {"text": "\n"}, {"translate": "Grow a giant mushroom and then harvest it with silk touch", "color": "#49DB49"}, {"text": "\n\n"}, {"translate": "Farming", "color": "gray", "italic": true}]}}
